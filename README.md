@@ -15,8 +15,8 @@ free to use either one of them.
 # How to play
 
 In Connect 4 you try to get 4 of your coins in a row. They can be horizontal, vertical or diagonal.
-You put a coin from the top to one of the rows. It falls down until it hits another coin.
+You put a coin from the top to one of the rows. The coin falls down until it hits another coin. The two players take turns after eachother.
 The first one to get 4 coins in a row wins.
 
 In this game, player 1s coins are represented with X's and player 2s 0's
-Type a number between 1 and 7 to put a coin into that slot.
+Type a number between 1 and 7 to put a coin into that slot. The first one to 4 in a row wins
