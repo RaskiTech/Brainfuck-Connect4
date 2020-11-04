@@ -1,6 +1,7 @@
 # Brainfuck-Connect4
 Connect 4 implemented in brainfuck
 
+
 # Cointais
 
 There is a brainfuck interpreter in this project made by me. You can use it, or any other 
@@ -9,6 +10,7 @@ to type an input. My one does!
 
 There are also two Connect 4 codes. One is commented and one is a block of brainfuck code. Feel 
 free to use either one of them.
+
 
 # How to play
 
