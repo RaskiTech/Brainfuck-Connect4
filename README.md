@@ -1,4 +1,4 @@
-# Brainfuck-Connect4
+# Brainfuck Connect 4
 Connect 4 implemented in brainfuck
 
 
