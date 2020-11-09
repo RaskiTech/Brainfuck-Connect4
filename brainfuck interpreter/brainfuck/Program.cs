@@ -15,7 +15,7 @@ namespace brainfuck
                 path = Console.ReadLine();
             }
 
-            text = ReadFile(path);
+            string text = ReadFile(path);
             for (int i = 0; i < text.Length; i++) {
                 switch (text[i]) {
                     // Move the pointer to the right
