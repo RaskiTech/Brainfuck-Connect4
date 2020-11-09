@@ -5,17 +5,17 @@ namespace brainfuck
 {
     class Program
     {
-        static string text = "C:/Users/rasmu/source/repos/brainfuck/brainfuck.bf";
+        static string path = "";
         static byte[] memory = new byte[1000]; // Absolute max is 2147483647
         static int pointer = 0;
 
         static void Main(string[] args) {
-            if (text == "") {
+            if (path == "") {
                 Console.WriteLine("Input the code location:");
-                text = Console.ReadLine();
+                path = Console.ReadLine();
             }
 
-            text = ReadFile(text);
+            text = ReadFile(path);
             for (int i = 0; i < text.Length; i++) {
                 switch (text[i]) {
                     // Move the pointer to the right
